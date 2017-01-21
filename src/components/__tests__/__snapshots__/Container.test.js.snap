@@ -1,0 +1,7 @@
+exports[`test renders 1`] = `<div />`;
+
+exports[`test renders message 1`] = `
+<div>
+  Test message
+</div>
+`;

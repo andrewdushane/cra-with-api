@@ -1,0 +1,36 @@
+{
+  "name": "cra-with-api",
+  "version": "1.0.0",
+  "devDependencies": {
+    "react-scripts": "0.8.5",
+    "react-test-renderer": "^15.4.2",
+    "react-test-utils": "0.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "mongoose": "^4.7.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.3.1",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "node server/index",
+    "postinstall": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5005",
+  "engines:": {
+    "node": "6",
+    "npm": "3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
