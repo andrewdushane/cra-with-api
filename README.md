@@ -11,8 +11,9 @@
  - Server will listen on port 5005
  - The production build of the front-end will be running at `localhost:5005`
  - `DB_URI`: Connection string for a MongoDB database.
-   - Defaults to `localhost/timeMasterDB`.
+   - Defaults to `localhost/exampleDB`.
    - `mongod` or the equivalent needs to be running to use a local database
+   - Database connection is configured with [mongoose](http://mongoosejs.com/)
  - `NODE_ENV`: set to `production` to run production server on port 80
 
 ## User Interface
